@@ -87,3 +87,32 @@ if your creating multiple variables with same value
 in string pool it will create one value and that value have multiple references
 
 '''
+
+student_name="siddarth tester"
+Company="Infosys"
+
+print(student_name)
+print(student_name.upper())
+print(student_name.lower())
+print(student_name.title())
+print(student_name.upper())
+print(student_name.lower())
+print(student_name.capitalize())
+print(student_name[::-1])
+print(student_name.replace("r","t"))
+print(student_name.count("t"))
+print(student_name.swapcase())
+print(student_name[2])
+print(student_name.isascii())
+print(student_name.isdigit())
+print("siddarth Anandkumar".capitalize())
+print("Siddarth Anandkuamr".join(["a", "b"," c"," d"]))
+print("my name is siddarth" + f" my age is {26}")
+
+name="siddarth is working in IT sector"
+print(len(name))
+print(name.split())
+date ="14/01/1999"
+print(date.split("/"))
+print(date.split("-"))
+print(name.split("i"))
