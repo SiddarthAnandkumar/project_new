@@ -116,3 +116,23 @@ date ="14/01/1999"
 print(date.split("/"))
 print(date.split("-"))
 print(name.split("i"))
+'''
+Set 
+----
+mutable
+it will follow the unorder collection of data
+it wont allow the duplicates
+One None values can stored
+'''
+actor={"vijay" , "vi1karam" ,"dhanush", "AK", "simbu"}
+print(actor)
+actor.add("ravi mohan")
+print(actor)
+actor.add("ravi mohan")
+print(actor)
+#actor.pop()
+print(actor.pop())
+#actor.remove("dhanush")
+print(actor)
+actor.discard("dhanush")
+print(actor)
