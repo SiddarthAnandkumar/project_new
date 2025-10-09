@@ -136,3 +136,17 @@ print(actor.pop())
 print(actor)
 actor.discard("dhanush")
 print(actor)
+'''
+
+dict --> {key: value}
+
+key --> can't be duplicated
+
+value can be duplicated
+
+mutable
+
+multiple type of data
+
+
+'''
